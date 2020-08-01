@@ -23,7 +23,7 @@ class CKEditorServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole() && $assets = $extension->assets()) {
             $this->publishes(
-                [$assets => public_path('vendor/cljamal/ckeditor')],
+                [$assets => public_path('vendor/cljamal/ckeditor4')],
                 'cljamal-ckeditor'
             );
         }
