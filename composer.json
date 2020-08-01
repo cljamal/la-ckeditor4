@@ -1,0 +1,33 @@
+{
+    "name": "cljamal/la-ckeditor4",
+    "description": "CKEditor 4 Full For Laravel-admin",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension", "editor", "CKEditor","CKEditor5"],
+    "homepage": "https://github.com/cljamal/la-ckeditor4.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jama Sultanov",
+            "email": "cl.jamal@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CLJAMAL\\CKEditor4\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CLJAMAL\\CKEditor4\\CKEditorServiceProvider"
+            ]
+        }
+    }
+}
