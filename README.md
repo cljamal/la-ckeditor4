@@ -1,5 +1,6 @@
 CKEditor 4 Full For Laravel-admin
 ======
+Forked from https://github.com/Ghost-die/ckeditor - CKEditor 5 for Laravel-admin(https://www.laravel-admin.org) 
 
 ## Installation
 
