@@ -2,7 +2,7 @@
     "name": "cljamal/la-ckeditor4",
     "description": "CKEditor 4 Full For Laravel-admin",
     "type": "library",
-    "keywords": ["laravel-admin", "extension", "editor", "CKEditor","CKEditor5"],
+    "keywords": ["laravel-admin", "extension", "editor", "CKEditor","CKEditor4"],
     "homepage": "https://github.com/cljamal/la-ckeditor4.git",
     "license": "MIT",
     "authors": [
