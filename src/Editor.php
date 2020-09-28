@@ -20,7 +20,7 @@ class Editor extends Textarea
         $config = array_merge($config, $this->options);
 	    $config['simpleUpload']['headers'] = ['X-CSRF-TOKEN' => csrf_token()];
 	    $config = json_encode($config);
-        $this->script = "CKEDITOR.replace( document.querySelector( '#{$this->id}' ),{$config} )";
+        $this->script = "CKEDITOR.replace( document.querySelector( '#{$this->id}' ),{$config} );";
 
         return parent::render();
     }
